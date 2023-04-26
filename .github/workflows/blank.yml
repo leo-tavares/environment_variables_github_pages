@@ -23,5 +23,6 @@ jobs:
           echo "The choose tech is $tech"
           echo "say... ${{env.any}}"
           echo "this is a ${{ vars.TEST }}"
+          echo "The super secret is ${{ vars.SUPER_SECRET }}"
         
 
