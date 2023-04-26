@@ -22,5 +22,6 @@ jobs:
         run: |
           echo "The choose tech is $tech"
           echo "say... ${{env.any}}"
+          echo "this is a $TEST"
         
 
