@@ -22,7 +22,14 @@ jobs:
         run: |
           echo "The choose tech is $tech"
           echo "say... ${{env.any}}"
-          echo "this is a ${{ vars.TEST }}"
-          echo "The super secret is ${{ vars.test_env.SUPER_SECRET }}"
-        
-
+          echo "this repo variable is ${{ vars.TEST }}"
+          
+  using-environments:
+   runs-on: ubuntu-latest
+   environment:
+    name: test_env
+    
+   steps:
+    - name: uses environment variable 
+      run: |
+        echo "The super secret is ${{ vars.test_env.SUPER_SECRET }}"
