@@ -22,6 +22,6 @@ jobs:
         run: |
           echo "The choose tech is $tech"
           echo "say... ${{env.any}}"
-          echo "this is a ${{env.SUPER_SECRET}}"
+          echo "this is a ${{ vars.SUPER_SECRET }}"
         
 
