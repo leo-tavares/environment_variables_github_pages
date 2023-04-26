@@ -1,14 +1,23 @@
+### Table of Contents  
+[Intro](#intro)  
+[Estrutura do projeto](#estrutura-do-projeto)  
+[jobs](#apenas-dois-jobs)  
+[job-local-variable-and-repository-variable](#local-variable-and-repository-variable)  
+[job-using-environments](#using-environments)  
+[Fontes de estudo](#fontes-de-estudo)  
+
+
 # Intro
 
 Olá esse é um repositório de estudos de como configurar e usar variáveis de ambiente via github action.
 Um dos objetivos apoiar membros do curso a construirem seus próprios scripts
 
-## Estrutura do projeto
+# Estrutura do projeto
 
 Existe apenas um arquivo `blank.yml` dentro dele existem a configuração de dois work flows veja a imagem abaixo 👇
 ![image](https://user-images.githubusercontent.com/41530127/234443734-66e04532-7a0f-400c-9b5b-93a915c3a789.png)
 
-### Apenas dois jobs 
+## Apenas dois jobs 
 
 ### local-variable-and-repository-variable
 Nesse job temos a declaração e consumo de valores..."locais" diretamente do arquivo `.yaml` repare que nesse cenário usamos
@@ -31,7 +40,7 @@ Para acessa-las usamos a `vars` como no highlight abaixo. **Não** podemos nos e
 ![image](https://user-images.githubusercontent.com/41530127/234448015-fca135b7-bcfd-4877-b3a6-aa5c4bbea90f.png)
 
 
-## Fontes de estudo
+# Fontes de estudo
 
 [Doc oficial sobre variables gihutb & github_Action](https://docs.github.com/en/actions/learn-github-actions/variables)
 
