@@ -32,4 +32,4 @@ jobs:
    steps:
     - name: uses environment variable 
       run: |
-        echo "The super secret is ${{ vars.test_env.SUPER_SECRET }}"
+        echo "The super secret is ${{ vars.SUPER_SECRET }}"
